@@ -1,6 +1,6 @@
 package ar.edu.unq.po2.tp3;
-
 import java.util.ArrayList;
+import java.util.List;
 
 public class Counter {
 	    private ArrayList<Integer> listaDeNumeros = new ArrayList<Integer>();
@@ -37,5 +37,9 @@ public class Counter {
 	                cantidad++;
 	        }
 	        return cantidad;
+	    }
+	    
+	    public void addAllNumber(List<Integer> numeros) {
+	    	this.listaDeNumeros.addAll(numeros);
 	    }
 }

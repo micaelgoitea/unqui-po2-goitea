@@ -8,7 +8,7 @@ public class CounterTestCase {
     private Counter counter;
 
     /**
-     * Crea un escenario de test b�sico, que consiste en un contador con 10 enteros
+     * Crea un escenario de test basico, que consiste en un contador con 10 enteros
      *
      * @throws Exception
      */
